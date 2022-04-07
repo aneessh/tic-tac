@@ -30,22 +30,14 @@ Develop a 2-player 3x3 Tic Tac Toe game with a feature of replaying the game.
 6. Run the command `npm run lint` to test the code for hygiene checks.
 7. Refactor the solution to ensure all test cases are passing.  
 8. DO NOT MODIFY THE PROVIDED CODE, ELSE THIS MAY IMPACT THE TEST CODE EXECUTION.
-9. Zip the solution code by selecting all the files and folders **excluding the node_modules folder** and give the name same as assignment name to the zipped file.
-10. Upload the zipped solution for submission.
 
-## Evaluation Guidelines
+## Submitting your solution for preliminary automated review  
 
-1. The solution will be tested based on hygiene checks.
-2. The hygiene checks include:
-    - Unused variables and functions should not exist.
-    - JavaScript naming conventions should be followed for naming identifiers.
-    - Length of code lines should not be more than 90 characters.
-    - String literals should be provided in double quotes.
-    - External dependencies should not be directly referenced, instead should be installed as dependency of dev-dependency.
-3. The hygiene checks are tested using ESLint tool.
-4. The lint test results generated are stored in `eslint_html_report.html` file and are used to compute the score for grading the submission.
-5. The graded score computation is dependent only on `errorCount`, `fatalErrorCount`, `warningCount` values and **Not On** `fixableErrorCount` and `fixableWarningCount` values.
-6. These count values have varying weightage and has the following order of precedence (higher to lower): 
-    1. FatalErrorCount
-    2. ErrorCount
-    3. WarningCount
+ 1. Open https://codereview-wipro.stackroute.in/#/app and login into the platform  
+ 2. Under Assignment repository select `develop-tic-tac-toe-game`, and branch master  
+ 3. Under Your solution repository select your own repository and branch  
+ 4. Press Submit  
+ 5. Evaluation will take around 2 mins to complete after which you need to refresh your browser and get the updated status    
+ 6. Press click here for the feedback 
+ 7. Watch out for your total score and detailed status on each test and eslint errors in the coloured blocks on the screen  
+ 8. Fix failing test cases as well as eslint errors and re-submit your solution until you get 100%
