@@ -1,5 +1,5 @@
 // button click handler
-
+const play = (event) => {
 
 //apply event to generate new game state
 
@@ -17,7 +17,7 @@
 // implement logic to get the winner
 
 // announce winner
-
+}
 
 // REPLAY-MODE :: replay-game-button-clicked->fetches events recorded->apply event->generates new game state->render game state
 
@@ -27,3 +27,7 @@
 
 
 // bind events to clickable buttons
+function enableButtons() {}
+
+module.exports = {play,enableButtons};
+// export default play;
